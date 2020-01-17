@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-express-mysql",
+  "version": "1.0.0",
+  "description": "Create Restful CRUD API using Nodejs, Express and MySQL database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "Indra Arianggi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
